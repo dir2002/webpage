@@ -1,0 +1,223 @@
+.navbar {
+    height: 85px;
+    font-size: 24px;
+    font-weight: bold;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20191025/pngtree-christmas-background-of-golden-snowflakes-image_319886.jpg);
+    background-color: #f6d48fd0;
+    z-index: 1050;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-hidden {
+    transform: translateY(-100%);
+}
+
+.navbar .nav-link {
+    color: rgb(71, 53, 6);
+}
+
+
+.navbar .nav-link:hover {
+    text-decoration: underline;
+
+}
+
+.btn {
+    background-color: #f6d38f;
+    font-weight: 700;
+    color: black;
+}
+
+.btn:hover {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN1Fpvy8fHp9cRYI01mYI8o_5H_KYCBQKcEw&s);
+
+}
+
+
+#hero-section {
+
+    padding: 10vh 10vw;
+    background-image: url('https://life.akbars.ru/upload/iblock/7fc/aurjaneyuz1xcrm1odc0anakbtnnh8mg.png');
+    background-size: cover;
+    background-position: center;
+    color: rgb(88, 68, 6);
+}
+
+#hero-section .container {
+    text-align: center;
+    background-color: rgba(216, 214, 201, 0.767);
+    border-radius: 15px;
+    min-width: 300px;
+
+}
+
+#hero-section .btn,
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#hero-section .container,
+#hero-section h1,
+#hero-section h3,
+#hero-section .btn {
+    opacity: 0;
+    animation: fadeInAnimation 2s forwards;
+}
+
+#hero-section .container {
+    animation-delay: 0.5s;
+}
+
+
+#hero-section h1 {
+    animation-delay: 1s;
+}
+
+#hero-section h3 {
+    animation-delay: 1.5s;
+}
+
+#hero-section .btn {
+    animation-delay: 2s;
+}
+
+
+#about-us {
+    background-image: url(texture_menu.jpg);
+
+}
+
+.container-fluid {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20191025/pngtree-christmas-background-of-golden-snowflakes-image_319886.jpg);
+}
+
+#about-us p {
+    font-size: 18px;
+}
+
+.card {
+    margin: 20px;
+    max-width: 400px;
+}
+
+.card-body {
+    background-color: #f6d38f;
+    font-weight: 600;
+    max-width: 400px;
+}
+
+
+#about-us .carousel-item {
+    width: 370px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+#about-us .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+#about-us .carousel-caption {
+    background-color: rgba(88, 67, 6, 0.521);
+    color: rgb(248, 244, 244);
+    width: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+
+#menu {
+    background-image: url(texture_menu.jpg);
+}
+
+.card {
+    width: 380px;
+
+}
+
+.card img {
+    height: 300px;
+}
+
+#testimonials {
+    background-image: url(texture_menu.jpg);
+
+}
+
+.t-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 50px;
+
+}
+
+#testimonials .carousel-item {
+    text-align: center;
+}
+
+.t-rating {
+    color: gold;
+}
+
+.t-text {
+    font-size: 20px;
+}
+
+#reserv {
+    background-image: url(texture_menu.jpg);
+}
+
+#reserv .container {
+    background-color: rgba(250, 235, 215, 0.486);
+    width: 30%;
+    min-width: 300px;
+}
+
+.btn-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contacts {
+    background-image: url(texture_menu.jpg);
+}
+
+#contacts .container {
+    font-size: 20px;
+}
+
+.center-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer{
+    background-color:rgb(216, 200, 160);
+}
